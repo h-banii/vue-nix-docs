@@ -22,7 +22,7 @@
           default =
             with pkgs;
             buildNpmPackage {
-              pname = "vue-nix-manual";
+              pname = "vue-nix-docs";
               version = "1.0.0";
 
               postPatch = ''
@@ -60,7 +60,7 @@
         in
         {
           default = pkgs.mkShell {
-            name = "vue-nix-manual-dev";
+            name = "vue-nix-docs-dev";
             packages = with pkgs; [
               nodejs
             ];

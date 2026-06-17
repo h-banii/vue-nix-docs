@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Vue Nix Manual"
+  name: "Vue Nix Docs"
   text: "Showcase"
   tagline: "Example of NixOS module documentation"
   actions:

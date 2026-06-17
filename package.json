@@ -1,11 +1,11 @@
 {
-  "name": "vue-nix-manual",
+  "name": "vue-nix-docs",
   "version": "1.0.0",
   "author": "h-banii",
   "license": "MIT",
-  "description": "Vue components to create web manuals for nix modules.",
-  "main": "./dist/vue-nix-manual.mjs",
-  "module": "./dist/vue-nix-manual.mjs",
+  "description": "Vue components to create web docs for nix modules.",
+  "main": "./dist/vue-nix-docs.mjs",
+  "module": "./dist/vue-nix-docs.mjs",
   "types": "./src/types.d.ts",
   "scripts": {
     "build": "vite build",

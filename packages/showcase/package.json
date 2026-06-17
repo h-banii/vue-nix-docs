@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "author": "h-banii",
   "license": "MIT",
-  "description": "vue-nix-manual showcase",
+  "description": "vue-nix-docs showcase",
   "private": true,
   "scripts": {
     "dev": "vitepress dev",
@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.4",
-    "vue-nix-manual": "file:../.."
+    "vue-nix-docs": "file:../.."
   }
 }

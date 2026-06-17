@@ -1,4 +1,4 @@
-declare module "vue-nix-manual";
+declare module "vue-nix-docs";
 
 export interface FilterChipModel {
   id: number;

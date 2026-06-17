@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "vue-nix-manual",
+      name: "vue-nix-docs",
     },
     rollupOptions: {
       external: ["vue"],
