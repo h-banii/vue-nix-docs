@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "vue-nix-manual",
+  title: "vue-nix-docs",
   description: "Documentation",
-  base: "/vue-nix-manual/",
+  base: "/vue-nix-docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: "Home", link: "/" }],
@@ -18,7 +18,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/h-banii/vue-nix-manual",
+        link: "https://github.com/h-banii/vue-nix-docs",
       },
     ],
   },
