@@ -48,17 +48,17 @@
             <div :class="$style['option-meta-value']" v-if="!!value.default">
               <code v-html="value.default.text"></code>
             </div>
-            <div v-if="!!value.example">
-              <div :class="$style['option-meta-name']">Example</div>
-              <div :class="$style['option-meta-value']">
-                <div
-                  v-if="value.example.text.includes('\n')"
-                  class="language-nix"
-                >
-                  <pre><code v-html="value.example.text"></code></pre>
-                </div>
-                <code v-else v-html="value.example.text"></code>
+            <div v-if="!!value.example" :class="$style['option-meta-name']">
+              Example
+            </div>
+            <div v-if="!!value.example" :class="$style['option-meta-value']">
+              <div
+                v-if="value.example.text.includes('\n')"
+                class="language-nix"
+              >
+                <pre><code v-html="value.example.text"></code></pre>
               </div>
+              <code v-else v-html="value.example.text"></code>
             </div>
           </div>
         </div>

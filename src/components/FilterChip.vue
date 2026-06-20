@@ -7,10 +7,7 @@
         v-model="filter.checked"
         @input="filterToggle(filterIndex)"
       />
-      <label
-        :for="`filter-${filter.id}`"
-        :class="$style['chip']"
-      >
+      <label :for="`filter-${filter.id}`" :class="$style['chip']">
         {{ filter.match }}
       </label>
     </div>
